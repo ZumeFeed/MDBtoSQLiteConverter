@@ -1,0 +1,16 @@
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\ConverterMDB.exe.config
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\ConverterMDB.exe
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\ConverterMDB.pdb
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\EntityFramework.dll
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\System.Data.SQLite.dll
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\EntityFramework.xml
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\bin\Release\System.Data.SQLite.xml
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\obj\Release\ConverterMDB.csproj.AssemblyReference.cache
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\obj\Release\ConverterMDB.csproj.CoreCompileInputs.cache
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\obj\Release\Converte.DEE33E3C.Up2Date
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\obj\Release\ConverterMDB.exe
+C:\Users\zume\source\repos\ConverterMDB\ConverterMDB\obj\Release\ConverterMDB.pdb

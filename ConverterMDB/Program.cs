@@ -68,10 +68,12 @@ namespace ConverterMDB
                     command.CommandType = CommandType.Text;
                     command.ExecuteNonQuery();
 
-                    string dataRowString = "";
+                    string dataRowString = "", dataListString = "";
+                    int num = 0;
                     foreach (DataRow row in dataSet.Tables[0].Rows)
                     {
                         dataRowString = "";
+                        num++;
 
                         for (int i = 1; i < row.ItemArray.Length ; i++)
                         {
@@ -92,15 +94,22 @@ namespace ConverterMDB
                                     break;
                             } // Поменять формат DateTime
                         }
+                        dataListString += "(" + dataRowString + ")";
+                        if (num < dataSet.Tables[0].Rows.Count)
+                            dataListString += ", \n";
 
-                        //Console.WriteLine(dataRowString);
-                        command.CommandText = @"INSERT INTO [Events] 
-                        ([DateTime],[EventType],[EventCode],[DevPtr],[RdrPtr],[UserPtr],[OperatorID],[AlarmStatus],[Unit],[Message],[Name]) 
-                        VALUES (" + dataRowString + ")";
-
-                        command.ExecuteNonQuery();
                     }
+
+                    //Console.WriteLine(dataRowString);
+                    command.CommandText = @"INSERT INTO [Events] 
+                        ([DateTime],[EventType],[EventCode],[DevPtr],[RdrPtr],[UserPtr],[OperatorID],[AlarmStatus],[Unit],[Message],[Name]) 
+                        VALUES " + dataListString + ";";
+
+                    //Console.WriteLine(command.CommandText);
+
+                    command.ExecuteNonQuery();
                 }
+
                 Console.WriteLine("Успешная конвертация...");
                 Console.ReadKey();
             }
